@@ -1,0 +1,16 @@
+[package]
+name = "deno-vendor"
+version = "0.1.0"
+authors = ["Divy Srivastava <dj.srivastava23@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+swc_atoms = "0.2.2"
+swc_ecma_visit = "0.13.0"
+swc_common = "=0.9.1"
+swc_ecma_ast = "=0.28.0"
+swc_ecma_parser = "=0.33.3"
+serde = { version = "1.0.88", features = ["derive"] }
+serde_json = "1.0"
+serde_derive = "1.0.114"
+clap = "2.33.3"
